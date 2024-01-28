@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('winfred008-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('winfred-dockerhub')
     APP_NAME = "winfred008/amazon"
     }
     stages { 
